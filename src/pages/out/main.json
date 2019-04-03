@@ -1,5 +1,5 @@
 {
-    "navigationBarTitleText": "你所见过的风景",
+    "navigationBarTitleText": "吃货",
     "usingComponents": {
         "i-button": "../../../static/dist/button/index",
         "i-card": "../../../static/dist/card/index",

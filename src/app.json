@@ -3,7 +3,8 @@
     "pages/index/main",
     "pages/logs/main",
     "pages/counter/main",
-    "pages/mine/main"
+    "pages/mine/main",
+    "pages/out/main"
   
   ],
   "window": {
@@ -23,6 +24,11 @@
       "pagePath": "pages/index/main",
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "社区",
+      "pagePath": "pages/out/main",
+      "iconPath": "static/tabs/map.png",
+      "selectedIconPath": "static/tabs/map-active.png"
     }, {
       "text": "我的",
       "pagePath": "pages/mine/main",

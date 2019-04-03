@@ -1,25 +1,26 @@
 <template>
   <div @click="clickHandle">
-    
-    
+    <i-notice-bar icon="systemprompt" loop>
+    2019年4月1日举行吃货节
+    </i-notice-bar>
     <i-grid i-class="no-border">
     <i-grid-item i-class="no-border">
         <i-grid-icon>
             <image src="/static/grid/1.png" />
         </i-grid-icon>
-        <i-grid-label>观景</i-grid-label>
+        <i-grid-label>西点</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
             <image src="/static/grid/2.png" />
         </i-grid-icon>
-        <i-grid-label>分享</i-grid-label>
+        <i-grid-label>主食</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
             <image src="/static/grid/3.png" />
         </i-grid-icon>
-        <i-grid-label>客服</i-grid-label>
+        <i-grid-label>外卖</i-grid-label>
     </i-grid-item>
 </i-grid>
     <i-grid i-class="no-border">
@@ -27,32 +28,41 @@
         <i-grid-icon>
             <image src="/static/grid/4.png" />
         </i-grid-icon>
-        <i-grid-label>查找</i-grid-label>
+        <i-grid-label>饮品</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
             <image src="/static/grid/5.png" />
         </i-grid-icon>
-        <i-grid-label>资讯</i-grid-label>
+        <i-grid-label>零食</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>
             <image src="/static/grid/6.png" />
         </i-grid-icon>
-        <i-grid-label>消息</i-grid-label>
+        <i-grid-label>面食</i-grid-label>
     </i-grid-item>
 </i-grid>
-<i-notice-bar icon="systemprompt" loop>
-    在这里，与我们一起分享你的经历，你所见过的风景
-    </i-notice-bar>
     <i-panel title="吃货推荐">
       <view class="top-padding">
       <i-card title="良品铺子" extra="零食" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
         <view slot="content">好多不错的零食</view>
         <view slot="footer">后街1-22</view>
-      
-      
-      
+      </i-card>
+      <view class="top-padding"></view>
+      <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">内容不错</view>
+        <view slot="footer">尾部内容</view>
+      </i-card>
+      <view class="top-padding"></view>
+      <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">内容不错</view>
+        <view slot="footer">尾部内容</view>
+      </i-card>
+      <view class="top-padding"></view>
+      <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">内容不错</view>
+        <view slot="footer">尾部内容</view>
       </i-card>
       <view class="top-padding"></view>
       <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
