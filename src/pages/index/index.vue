@@ -45,11 +45,11 @@
 <i-notice-bar icon="systemprompt" loop>
     在这里，与我们一起分享你的经历，你所见过的风景
     </i-notice-bar>
-    <i-panel title="吃货推荐">
+    <i-panel title="用户分享">
       <view class="top-padding">
-      <i-card title="良品铺子" extra="零食" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-        <view slot="content">好多不错的零食</view>
-        <view slot="footer">后街1-22</view>
+      <i-card title="标题" extra="分类" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">好多不错的风景</view>
+        <view slot="footer">地点</view>
       
       
       
