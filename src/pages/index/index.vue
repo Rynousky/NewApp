@@ -47,7 +47,7 @@
     </i-notice-bar>
     <i-panel title="用户分享">
       <view class="top-padding">
-      <i-card title="标题" extra="分类" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+      <i-card title="标题" extra="分类" thumb="http://i0.hdslb.com/bfs/archive/ffe9735cdb517513b7de05d95767eef31abe3da9.jpg">
         <view slot="content">好多不错的风景</view>
         <view slot="footer">地点</view>
       
