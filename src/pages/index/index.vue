@@ -47,15 +47,15 @@
     </i-notice-bar>
     <i-panel title="用户分享">
       <view class="top-padding">
-      <i-card title="标题" extra="分类" thumb="http://img1.imgtn.bdimg.com/it/u=2735633715,2749454924&fm=26&gp=0.jpg">
+      <i-card title="我曾经遇到过的风景" extra="编辑推荐" thumb="http://img1.imgtn.bdimg.com/it/u=2735633715,2749454924&fm=26&gp=0.jpg">
         <view slot="content">好多不错的风景</view>
-        <view slot="footer">地点</view>
+        <view slot="footer">长白山</view>
       
       
       
       </i-card>
       <view class="top-padding"></view>
-      <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+      <i-card title="用户分享" i-class="top-padding" extra="编辑推荐" thumb="http://img.sccnn.com/bimg/337/23662.jpg">
         <view slot="content">内容不错</view>
         <view slot="footer">尾部内容</view>
       </i-card>
